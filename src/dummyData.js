@@ -98,7 +98,7 @@ export const userData = [
   export const productRows = [
     {
       id: 1,
-      product: "Banana",
+      name: "Banana",
 
       category: "Fruit",
       img: "/images/banana.jpg",

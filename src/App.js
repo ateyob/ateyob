@@ -9,8 +9,8 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/Product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import OrdersList from "./pages/OrdersList/OrdersList";
-import Orders from "./pages/Orders/Orders"
-
+import Orders from "./pages/Orders/Orders";
+import AddCategory from "./pages/AddCategory/AddCategory";
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
           
           <Route path="/orders" element={<OrdersList />} />
           <Route path="/order/:orderId" element={<Orders />} />
-          
+          <Route path="/addcategory" element={<AddCategory />} />
          
         </Routes>
       </div>
