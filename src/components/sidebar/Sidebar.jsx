@@ -1,5 +1,5 @@
 import './sidebar.css'
-import { LineStyle, PersonOutline, ShoppingCart, FormatListBulleted, Add} from '@mui/icons-material';
+import { LineStyle, PersonOutline, ShoppingCart, FormatListBulleted, Add, Category} from '@mui/icons-material';
 import {Link} from 'react-router-dom';
 
 export default function Sidebar() {
@@ -37,6 +37,13 @@ export default function Sidebar() {
                    <li className="sidebarListItem">
                         <FormatListBulleted className='sidebarIcon'/>
                         Products List
+                   </li>
+               </Link>
+
+               <Link to="/addcategory" className='link'>
+                   <li className="sidebarListItem">
+                        <Category className='sidebarIcon'/>
+                        Add Category
                    </li>
                </Link>
 
