@@ -9,9 +9,9 @@ export default function Topbar() {
             <div className="topLeft">
                 <span className="logo">Freshmart</span>
             </div>
-            <div className="topCenter">
+            {/* <div className="topCenter">
                 <span className="menu">Dashboard</span>
-            </div>
+            </div> */}
             <div className="topRight">
                 <div className="topbarIconContainer"></div>
             <Search className='button'></Search>

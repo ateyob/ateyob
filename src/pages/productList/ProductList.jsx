@@ -13,11 +13,11 @@ export default function ProductList() {
   };
 
   const columns = [
-    { field: "id", headerName: "ID", width: 90 },
+    { field: "id", headerName: "ID", width: 60 },
     {
       field: "product",
       headerName: "Product",
-      width: 200,
+      width: 300,
       renderCell: (params) => {
         return (
           <div className="productListItem">
@@ -27,7 +27,12 @@ export default function ProductList() {
         );
       },
     },
-    { field: "stock", headerName: "Stock", width: 200 },
+    {
+      field: "category",
+      headerName: "Category",
+      width: 180,
+    },
+    { field: "stock", headerName: "Stock", width: 100 },
     {
       field: "status",
       headerName: "Status",
@@ -35,7 +40,7 @@ export default function ProductList() {
     },
     {
       field: "price",
-      headerName: "Price",
+      headerName: "Price (ETB)",
       width: 160,
     },
     {
@@ -64,7 +69,7 @@ export default function ProductList() {
         rows={data}
         disableSelectionOnClick
         columns={columns}
-        pageSize={8}
+        pageSize={10}
         checkboxSelection
       />
     </div>

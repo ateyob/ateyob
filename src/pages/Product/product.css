@@ -51,6 +51,7 @@
   
   .productName {
     font-weight: 600;
+    padding-left: 50px;
   }
   
   .productInfoBottom {
@@ -127,4 +128,9 @@
     color:white;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  .productImg{
+    width: 100px;
+    height: 100px;
   }
