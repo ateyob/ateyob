@@ -24,14 +24,14 @@
 .userContainer{
     display: flex;
     margin-top: 20px;
+    min-width: 800px;
 }
 
 .userShow{
-    width: 500px;
+    width: 900px;
     padding: 20px;
     -webkit-box-shadow: 0px 0px 11px -1px #8d8c8c; 
     box-shadow: 0px 0px 11px -1px #8d8c8c;
-    
     
 }
 
@@ -74,10 +74,14 @@
 
 .userShowBottom{
     margin-top: 20px;
-
 }
 
-
+.tableTitle{
+    font-weight: bold;
+}
+.eyob{
+    border: solid black;
+}
 .userShowTitle{
     font-size: 14px;
     width: 600;

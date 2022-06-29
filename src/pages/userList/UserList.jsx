@@ -55,7 +55,7 @@ export default function UserList() {
   
   return (
     <div className="userList">
-        <DataGrid rows={data} disableSelectionOnClick columns={columns} pageSize={8} rowsPerPageOptions={[5]} checkboxSelection />
+        <DataGrid rows={data} disableSelectionOnClick columns={columns} pageSize={10} rowsPerPageOptions={[5]} checkboxSelection />
     </div>
   )
 }

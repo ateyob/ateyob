@@ -99,7 +99,7 @@ export const userData = [
     {
       id: 1,
       product: "Banana",
-
+      name: "Banana",
       category: "Fruit",
       img: "/images/banana.jpg",
       stock: "180 Kg",
