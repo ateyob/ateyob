@@ -6,8 +6,8 @@ export default function NewProduct() {
       <h1 className="addCategoryTitle">Add Category</h1>
       <form className="addCategoryForm">
         <div className="addCategoryItem">
-          <label>Product Name</label>
-          <input type="text" placeholder="Product Name" />
+          <label>Category Name</label>
+          <input type="text" placeholder="Catedgory Name" />
         </div>
         <div className="addCategoryItem">
           <label>Image</label>

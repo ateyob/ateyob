@@ -1,0 +1,61 @@
+.newLogin {
+    flex: 4;
+  }
+  .addLoginTitle{
+    padding: 100px 400px 10px 400px;
+  }
+  
+  .addLoginForm {
+    margin-top: 10px;
+    padding: 70px 400px;
+    
+  }
+  
+  .addLoginItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 60px;
+
+    
+    
+  }
+  
+  .addLoginItem > input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 275px;
+    box-shadow: 1px 1px rgb(100, 103, 103);
+   
+   
+  }
+  
+  
+  .addLoginButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 90px;
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+  }
+
+  .singup{
+   margin-top: 30px;
+   padding-left: 30px;
+    
+  }
+
+  .forget{
+    font-size: 12px;
+    margin-top: 5px;
+    width: 300px;
+    padding-left: 180px;
+  }
