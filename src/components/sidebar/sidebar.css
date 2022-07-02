@@ -49,3 +49,14 @@
     color: green;
     padding-right: 10px;
 }
+
+
+.logoutbutton{
+    padding-top: 150px;
+    padding-left: 50px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+

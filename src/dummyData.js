@@ -105,7 +105,7 @@ export const userData = [
       stock: "180 Kg",
       status: "Pending",
       phoneNum: "+251921567692",
-      price: "256.00",
+      price: "40.00",
       location: "Summit, Addis Ababa"
     },
     {

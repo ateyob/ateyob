@@ -1,6 +1,11 @@
 import './sidebar.css'
 import { LineStyle, PersonOutline, ShoppingCart, FormatListBulleted, Add, Category} from '@mui/icons-material';
 import {Link} from 'react-router-dom';
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
+
+
 
 export default function Sidebar() {
   return (
@@ -60,15 +65,20 @@ export default function Sidebar() {
                         Orders
                    </li>
                </Link>
+               <div className='logoutbutton'>
+                    <ElevatedButton/>
+                </div>
                    </ul>
             </div>
-
-            {/* <div className="sidebarMenu">
-                <h3 className="sidebarTitle">Quick Menu</h3>
-                <ul className="sidebarList"></ul>
-            </div> */}
-
         </div>
     </div>
   )
 }
+
+export function ElevatedButton() {
+    return (
+      <Button style={{backgroundColor: "#00B300", }} variant="contained" LogoutButton>
+        Logout
+      </Button>
+    );
+  }
