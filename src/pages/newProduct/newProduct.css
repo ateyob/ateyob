@@ -27,12 +27,15 @@
     padding: 10px;
     border-radius: 10px;
     width: 275px;
+   
   }
   
   .addProductItem > select {
     padding: 10px;
     border-radius: 10px;
     width: 300px;
+  
+   
   }
   
   .addProductButton {

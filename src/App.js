@@ -11,6 +11,8 @@ import NewProduct from "./pages/newProduct/NewProduct";
 import OrdersList from "./pages/OrdersList/OrdersList";
 import Orders from "./pages/Orders/Orders";
 import AddCategory from "./pages/AddCategory/AddCategory";
+import SignUp from "./pages/SignUp/SignUp";
+import LogIn from "./pages/LogIn/LogIn";
 
 
 function App() {
@@ -20,7 +22,8 @@ function App() {
       <div className="container">
         <Sidebar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<LogIn />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/users" element={<UserList />} />
           <Route path="/user/:userId" element={<User />} />
 
@@ -32,6 +35,7 @@ function App() {
           <Route path="/orders" element={<OrdersList />} />
           <Route path="/order/:orderId" element={<Orders />} />
           <Route path="/addcategory" element={<AddCategory />} />
+          <Route path="/signup" element={<SignUp />} />
          
         </Routes>
       </div>
